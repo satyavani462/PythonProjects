@@ -11,7 +11,9 @@ def printboard(xTurn,oTurn):
     seven='X' if xTurn[7] else('O' if oTurn[7] else 7)
     eight='X' if xTurn[8] else('O' if oTurn[8] else 8)
     print(f"{zero} | {one} | {two}")
+    print("__|___|___")
     print(f"{three} | {four} | {five}")
+    print("__|___|___")
     print(f"{six} | {seven} | {eight}")
 def checkwin(xTurn,oTurn):
     wins=[[0,1,2],[3,4,5],[6,7,8],[0,3,6],[1,4,7],[2,5,8],[0,4,8],[2,4,6]]
